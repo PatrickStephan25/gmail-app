@@ -2,3 +2,15 @@
     width:50px;
     color: white;
 }
+.searchbar{
+    margin:0;
+    width: 60%;
+
+}
+.end{
+    float: right;
+    text-align: right;
+}
+.btn1{
+    border: none;
+}

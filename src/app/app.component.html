@@ -1,11 +1,17 @@
 <app-topnavbar>Loading...</app-topnavbar>
 <app-sidenavbar>Loading...</app-sidenavbar>
 <app-navbar>Loading...</app-navbar>
-<app-emails>Loading...</app-emails>
+<div *ngFor="let email of emails"> 
+    <app-emails sender={{email.sender}} subject={{email.subject}} partOfMessage={{email.partOfMessage}} time={{email.time}}>
+        Loading...
+    </app-emails>
+</div>
+
+
 
 
 <html>
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-  Welcome to gmail
+
 </div>
 
