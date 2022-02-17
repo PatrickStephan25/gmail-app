@@ -1,0 +1,12 @@
+﻿* Main features:
+   * Created new layout components called “email-1-layout”, “home-layout”, “social-layout”, “next-page-layout”,and “sent-emails-layout”
+   * Formatted each layout using bootstrap flex layout
+   * Added the following attributes to the class “mock_email.ts”:
+      * route
+   * Created a model file called “app-rooting.module.ts” 
+   * Edited “app.module.ts” to include all new components
+Bonus Features:
+* Implemented new accordion feature in the sidebar for the tabs
+* Implemented new +compose email button
+* Implemented new drop-down field under question mark icon in the top right corner
+* Added arrows to navbar to create button to route to new second page of emails
