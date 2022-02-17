@@ -6,13 +6,16 @@ import { Component, Input } from "@angular/core";
     styleUrls: ['emails.component.css']
 })
 export class EmailsComponent{
+    @Input() route: string;
     @Input() sender: string;
     @Input() subject: string;
     @Input() partOfMessage: string;
     @Input() time: string;
+    
  
  
    constructor(){
+       this.route="sent-email";
        this.sender= "Unknown Sender";
        this.subject= "(no subject)";
        this.partOfMessage= "";

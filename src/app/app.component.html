@@ -1,11 +1,6 @@
 <app-topnavbar>Loading...</app-topnavbar>
 <app-sidenavbar>Loading...</app-sidenavbar>
-<app-navbar>Loading...</app-navbar>
-<div *ngFor="let email of emails"> 
-    <app-emails sender={{email.sender}} subject={{email.subject}} partOfMessage={{email.partOfMessage}} time={{email.time}}>
-        Loading...
-    </app-emails>
-</div>
+<router-outlet></router-outlet>
 
 
 
