@@ -14,18 +14,18 @@ li {
 
 li a {
   display: block;
-  color: rgb(78, 78, 78);
+  color: rgb(56, 56, 56);
   text-align: center;
   padding: 9px 40px;
   text-decoration: none;
 }
 li a.active {
   background-color: #8f8f8f;
-  color: rgb(255, 95, 95);
+  color: rgb(39, 39, 39);
 }
 
 li a:hover {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(131, 120, 120);
   color:rgb(39, 39, 39);
 }
 .left-arrow{
@@ -38,5 +38,24 @@ li a:hover {
   text-align: right;
   margin-right: 3%;
 }
-
-
+.topbar-buttons {
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-top: 6px;
+  color: black;
+  
+}
+.seperation-bar{
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-left: 20px;
+  color: rgb(136, 133, 133);
+}
+.back-button{
+  font-size: 1.75rem;
+}
+hr{
+  display:block;
+  margin-left: 13%;
+  margin-top: -20px;
+}

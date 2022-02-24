@@ -1,6 +1,7 @@
-
+<app-sentemailnavbar>Loading...</app-sentemailnavbar>
 <html>
-    <div style="margin-left:15%;padding:1px 16px;height:1000px;">
-        Sent messages
+    <div *ngFor="let sentemail of sentemails"> 
+        <app-sentemails route={{sentemail.route}} recipient={{sentemail.recipient}} subject={{sentemail.subject}} partOfMessage={{sentemail.partOfMessage}} time={{sentemail.time}}>
+            Loading...
+        </app-sentemails>
     </div>
-  

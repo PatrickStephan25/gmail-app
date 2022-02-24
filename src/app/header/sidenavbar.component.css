@@ -5,8 +5,8 @@
     ul {
       list-style-type: none;
       padding: 0;
-      width: 10%;
-      background-color: #f1f1f1;
+      width: 13%;
+      background-color: rgb(255, 255, 255);
       position: fixed;
       height: 100%;   
     }
@@ -22,7 +22,7 @@
     }
     li a:hover {
       background-color: rgb(194, 186, 186);
-      color: white;
+      color: rgb(0, 0, 0);
     }
     .plus{
       float: right;
@@ -30,7 +30,7 @@
     .chat-section{
       width: 100%;
       text-align: left;
-      background-color: #f1f1f1;
+      background-color: rgb(255, 255, 255);
       border: none;
       color: rgb(0, 0, 0); 
       font-size: 16px;
@@ -39,12 +39,12 @@
     }
 
     .chat-section:hover {
-      background-color: #a5a4a4;
+      background-color: #ffffff;
     }
     .chat-body{
       width: 100%;
       text-align: left;
-      background-color: #f1f1f1;
+      background-color: rgb(255, 255, 255);
       color: rgb(0, 0, 0); 
       font-size: 16px;
     }

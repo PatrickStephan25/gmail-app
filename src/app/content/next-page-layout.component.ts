@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { EmailModel } from "./email.model";
+import { mock_more_email } from "./mock_more_email";
 
 @Component({
     selector:"fm-next-page",
@@ -7,5 +9,12 @@ import { Component } from "@angular/core";
 })
 
 export class NextPageLayoutComponent{
+    moreemails: EmailModel []=[];
 
+    constructor(){
+        for (var moreemail of mock_more_email){
+            console.log(moreemail);
+            this.moreemails.push(moreemail);
+          }
+    }
 }

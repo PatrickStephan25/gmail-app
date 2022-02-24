@@ -12,6 +12,11 @@ import { HomeLayoutComponent } from './content/home-layout.component';
 import { Email1LayoutComponent } from './content/email-1-layout.component';
 import { SocialLayoutComponent } from './content/social-layout.component';
 import { NextPageLayoutComponent } from './content/next-page-layout.component';
+import { EmailNavBarComponent } from './content/emailnavbar.component';
+import { EmailContentsComponent } from './content/email-contents.component';
+import { SentEmailsComponent } from './content/sentemails.component';
+import { SentEmailNavBarComponent } from './content/sentemailnavbar.component';
+import { MoreEmailsComponent } from './content/moreemails.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { NextPageLayoutComponent } from './content/next-page-layout.component';
     HomeLayoutComponent,
     Email1LayoutComponent,
     SocialLayoutComponent,
-    NextPageLayoutComponent
+    NextPageLayoutComponent,
+    EmailNavBarComponent,
+    EmailContentsComponent,
+    SentEmailsComponent,
+    SentEmailNavBarComponent,
+    MoreEmailsComponent
   ],
   imports: [
     BrowserModule,

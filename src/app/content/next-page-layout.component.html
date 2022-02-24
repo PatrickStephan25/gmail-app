@@ -1,5 +1,11 @@
 <app-navbar>Loading...</app-navbar>
+
 <html>
+    <div *ngFor="let moreemail of moreemails"> 
+        <app-moreemails route={{moreemail.route}} sender={{moreemail.sender}} subject={{moreemail.subject}} partOfMessage={{moreemail.partOfMessage}} time={{moreemail.time}}>
+            Loading...
+        </app-moreemails>
+    </div>
     <div style="margin-left:15%;padding:1px 16px;height:1000px;">
         more emails
     </div>
