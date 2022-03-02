@@ -1,0 +1,5 @@
+﻿* Main features:
+   * Created new component called “user-info” 
+   * Imported Http client and added component to app.module.html
+   * Added 2 NgIf statements 
+   * Created and interface to help identify and store data received from Http pull
