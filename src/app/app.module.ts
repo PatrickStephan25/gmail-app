@@ -17,6 +17,8 @@ import { EmailContentsComponent } from './content/email-contents.component';
 import { SentEmailsComponent } from './content/sentemails.component';
 import { SentEmailNavBarComponent } from './content/sentemailnavbar.component';
 import { MoreEmailsComponent } from './content/moreemails.component';
+import {HttpClientModule} from '@angular/common/http'
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { MoreEmailsComponent } from './content/moreemails.component';
     EmailContentsComponent,
     SentEmailsComponent,
     SentEmailNavBarComponent,
-    MoreEmailsComponent
+    MoreEmailsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -31,7 +31,7 @@ export const mock_email =[
     {
         sender:"Mohamed Hefeida-m." ,
         subject:"202201-CPE-271-001: HW#2 Posted Due Monday @ 11AM (no submission required)" ,
-        partOfMessage:"- Dear Students, HW#2 Posted and due Monday @ 11 AM. ALthough no submission is required " ,
+        partOfMessage:"- Dear Students, HW#2 Posted and due Monday @ 11 AM. ALthough no " ,
         time:"Feb 4",
         route:"email5"
     },
@@ -45,7 +45,7 @@ export const mock_email =[
     {
         sender:"Handshake" ,
         subject:"Discover what you can do with Schlumberger at the upcoming events!" ,
-        partOfMessage:" - Hi Patrick, A new message is waiting for you in Handshake. Sneak peek is below. From " ,
+        partOfMessage:" - Hi Patrick, A new message is waiting for you in Handshake. " ,
         time:"Feb 4",
         route:"email7"
     },
@@ -59,7 +59,7 @@ export const mock_email =[
     {
         sender:"Daily Athenaeum New." ,
         subject:"The Weekly Athenaeum: 'I pay $25,000 a year to be here, and this is what I get' " ,
-        partOfMessage:" - News of the week from your independent student newspaper THE DAILY ATHENAEUM For" ,
+        partOfMessage:" - News of the week from your independent student newspaper THE" ,
         time:"Feb 4",
         route:"email9"
     },
