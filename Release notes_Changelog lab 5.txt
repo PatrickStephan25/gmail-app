@@ -1,0 +1,7 @@
+﻿* Main features:
+   * Created new components called “email-contents”, “emailnavbar”, “moreemails”, “sentmailnavbar”,and “sentemails”
+   * Also created a modal component within the email contents component
+   * Formatted each layout using bootstrap flex layout
+   * Added 2 ForNg loops and created 2 more mock lists
+Bonus Features:
+* Fixed most of icons to no longer use in-line CSS
