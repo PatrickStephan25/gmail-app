@@ -19,6 +19,11 @@ import { SentEmailNavBarComponent } from './content/sentemailnavbar.component';
 import { MoreEmailsComponent } from './content/moreemails.component';
 import {HttpClientModule} from '@angular/common/http'
 import { UserInfoComponent } from './user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -42,7 +47,9 @@ import { UserInfoComponent } from './user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
