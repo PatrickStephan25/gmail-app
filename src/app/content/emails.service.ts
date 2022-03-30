@@ -18,4 +18,8 @@ export class EmailsService{
     getEmail(index:number){
         
     }
+
+    public addEmail(email:EmailModel){
+        this.db.list<EmailModel>("emails").push(email);
+    }
 }

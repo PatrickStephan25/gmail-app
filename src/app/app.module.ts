@@ -24,6 +24,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddEmailComponent } from './content/add-email/add-email.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,14 +44,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     SentEmailsComponent,
     SentEmailNavBarComponent,
     MoreEmailsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddEmailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

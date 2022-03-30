@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './content/home-layout.component';
 import { Email1LayoutComponent } from './content/email-1-layout.component';
 import { SocialLayoutComponent } from './content/social-layout.component';
 import { NextPageLayoutComponent } from './content/next-page-layout.component';
+import { AddEmailComponent } from './content/add-email/add-email.component';
 
 const routes:Routes = [
     {path: '',  redirectTo: 'home', pathMatch: 'full' },
@@ -13,7 +14,8 @@ const routes:Routes = [
     {path: 'home', component: HomeLayoutComponent},
     {path: 'home/email1', component: Email1LayoutComponent},
     {path: 'home/social', component: SocialLayoutComponent},
-    {path: 'home/page2', component: NextPageLayoutComponent}
+    {path: 'home/page2', component: NextPageLayoutComponent},
+    {path: 'admin', component: AddEmailComponent}
 ];
 
 
