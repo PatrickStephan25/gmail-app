@@ -26,6 +26,8 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddEmailComponent } from './content/add-email/add-email.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentification/authentication.component';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ import { FormsModule } from '@angular/forms';
     SentEmailNavBarComponent,
     MoreEmailsComponent,
     UserInfoComponent,
-    AddEmailComponent
+    AddEmailComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

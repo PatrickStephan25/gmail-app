@@ -7,6 +7,7 @@ import { Email1LayoutComponent } from './content/email-1-layout.component';
 import { SocialLayoutComponent } from './content/social-layout.component';
 import { NextPageLayoutComponent } from './content/next-page-layout.component';
 import { AddEmailComponent } from './content/add-email/add-email.component';
+import { AuthenticationComponent } from './auth/authentification/authentication.component';
 
 const routes:Routes = [
     {path: '',  redirectTo: 'home', pathMatch: 'full' },
@@ -15,10 +16,10 @@ const routes:Routes = [
     {path: 'home/email1', component: Email1LayoutComponent},
     {path: 'home/social', component: SocialLayoutComponent},
     {path: 'home/page2', component: NextPageLayoutComponent},
-    {path: 'admin', component: AddEmailComponent}
-];
+    {path: 'admin', component: AddEmailComponent},
+    {path: 'auth', component: AuthenticationComponent}
 
-
+]
 @NgModule({
     declarations: [],
     imports: [
